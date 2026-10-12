@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# SQLite locais (nunca commitar DB real)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# GTK / editor
+*.pyc
+.idea/
+.vscode/
+*~
+.DS_Store
